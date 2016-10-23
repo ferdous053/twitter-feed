@@ -40,10 +40,10 @@ var FeedBox = React.createClass({
       type: 'POST',
       data: feed,
       success: function(data) {
-        this.setState({data: data});
+        this.setState({data: newFeeds});
       }.bind(this),
       error: function(xhr, status, err) {
-        this.setState({data: feeds});
+        this.setState({data: newFeeds});
         console.error(this.props.url, status, err.toString());
       }.bind(this)
     });
