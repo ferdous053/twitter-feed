@@ -1,0 +1,40 @@
+@import url("bootstrap.min.css");
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.lighter-font {
+  font-weight: lighter;
+}
+.text-center {
+  text-align: center;
+}
+.text-medium {
+  font-size: medium;
+}
+
+.text-large {
+  font-size: large;
+}
+
+.underline {
+  border-bottom: 1px solid #ddd;
+}
+.upperline {
+  border-top: 1px solid #ddd;
+}
+
+.blue {
+  color: #0275d8;
+}
+.orange {
+  color: orange;
+}
+.light-blue-back {
+  background-color: lightsteelblue;
+  height:100vh;
+}
+.comment-background {
+  background-color: lavender;
+}

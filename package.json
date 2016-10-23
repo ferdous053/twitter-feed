@@ -1,0 +1,26 @@
+{
+  "name": "twitter-feed",
+  "version": "1.0.0",
+  "description": "Assignment for react.js on twitter feed",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "browserify": "^13.1.0",
+    "classnames": "^2.2.5",
+    "express": "~3.2.0",
+    "guid": "0.0.12",
+    "gulp": "^3.9.1",
+    "mongodb": "~1.3.19",
+    "mongoose": "~3.8",
+    "mongoose-schema-extend": "~0.1.5",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "author": "Ferdous",
+  "license": "ISC"
+}
