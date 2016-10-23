@@ -115,7 +115,7 @@ var FeedForm = React.createClass({
     return (
       <form className={formClasses} onSubmit={this.handleSubmit}>
         <input type="text" placeholder="Your name" value={this.state.author} onChange={this.handleAuthorChange} />
-        <textarea rows='3' cols='120' placeholder="Write your comment..." onChange={this.handleTextChange}>{this.state.text}</textarea>
+        <textarea rows='3' cols='120' placeholder="Write your comment..." onChange={this.handleTextChange} value={this.state.text} />
         <div className="col-md-12">
           <div className="col-md-11"></div>
           <div className="col-md-1">
